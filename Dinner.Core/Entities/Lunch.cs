@@ -1,6 +1,6 @@
 namespace Dinner.Core.Entities
 {
-    public class Dinner
+    public class Lunch
     {
         public Guid Id { get; set; }
         public string Title { get; set; }

@@ -9,6 +9,6 @@ namespace Dinner.Core.Entities
         public string UserName { get; set; } = string.Empty;
 
         [JsonIgnore]
-        public Dinner Dinner { get; set; }
+        public Lunch Lunch { get; set; }
     }
 }
